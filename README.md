@@ -11,7 +11,7 @@
 
 <p><strong>A notch and a dock for Windows.<br />Physics-animated, reactive, and built to replace your taskbar.</strong></p>
 
-[Features](#features) &nbsp;·&nbsp; [Install](#install) &nbsp;·&nbsp; [Settings](SETTINGS.md) &nbsp;·&nbsp; [Architecture](ARCHITECTURE.md) &nbsp;·&nbsp; [Report a bug](https://github.com/nitinrawatisMLeng/Fectar/issues/new/choose)
+[Features](#features) &nbsp;·&nbsp; [Install](#install) &nbsp;·&nbsp; [Settings](SETTINGS.md) &nbsp;·&nbsp; [Architecture](ARCHITECTURE.md) &nbsp;·&nbsp; [Report a bug](https://github.com/nitinrawatisMLeng/kairo/issues/new/choose)
 
 </div>
 
@@ -34,7 +34,7 @@
 
 ## Install
 
-1. Build the installer ([below](#build-from-source)), or get it from the [releases page](https://github.com/nitinrawatisMLeng/Fectar/releases) if one is published.
+1. Build the installer ([below](#build-from-source)), or get it from the [releases page](https://github.com/nitinrawatisMLeng/kairo/releases) if one is published.
 2. Run `Kairo_<version>_x64-setup.exe` and choose **Just me** or **All users**. An all-users install asks for administrator permission once. Windows SmartScreen warns about it because it isn't code-signed: choose **More info**, then **Run anyway**.
 3. Kairo starts with a short splash, then the notch and dock appear together.
 
@@ -127,7 +127,7 @@ External monitors are controlled over DDC/CI. Turn DDC/CI on in the monitor's ow
 
 <br />
 
-Open **Settings › About › Copy Diagnostics** and paste the result into a [bug report](https://github.com/nitinrawatisMLeng/Fectar/issues/new/choose). It includes your versions, monitors and recent log.
+Open **Settings › About › Copy Diagnostics** and paste the result into a [bug report](https://github.com/nitinrawatisMLeng/kairo/issues/new/choose). It includes your versions, monitors and recent log.
 
 </details>
 
@@ -136,8 +136,8 @@ Open **Settings › About › Copy Diagnostics** and paste the result into a [bu
 You need [Rust](https://rustup.rs/), [Node.js](https://nodejs.org/) and the Visual Studio C++ build tools, on Windows.
 
 ```bash
-git clone https://github.com/nitinrawatisMLeng/Fectar.git
-cd Fectar
+git clone https://github.com/nitinrawatisMLeng/kairo.git
+cd Kairo
 npm install
 npm run tauri dev
 ```

@@ -164,7 +164,7 @@ function buildFeedbackUrl(reason: string, comment: string, appVersion: string): 
     comment: comment.trim(),
     version: appVersion || "unknown",
   });
-  return `https://github.com/nitinrawatisMLeng/Fectar/issues/new?${params.toString()}`;
+  return `https://github.com/nitinrawatisMLeng/kairo/issues/new?${params.toString()}`;
 }
 
 export default function App() {

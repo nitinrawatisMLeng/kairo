@@ -206,7 +206,7 @@ pub fn heal_uninstall_registration() {
         let _ = set_string(hkey, "DisplayName", PRODUCT_NAME);
         let _ = set_string(hkey, "DisplayIcon", &icon_str);
         let _ = set_string(hkey, "DisplayVersion", env!("CARGO_PKG_VERSION"));
-        let _ = set_string(hkey, "Publisher", "Kairo");
+        let _ = set_string(hkey, "Publisher", "nitinrawat");
         let _ = set_string(hkey, "InstallLocation", &install_location);
         let _ = set_string(hkey, "UninstallString", &uninstall_string);
         let _ = set_dword(hkey, "NoModify", 1);

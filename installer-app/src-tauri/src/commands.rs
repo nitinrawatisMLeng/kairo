@@ -162,7 +162,7 @@ pub async fn start_install(
         display_name: "Kairo (カイロ)",
         display_icon: &icon_str,
         display_version: env!("CARGO_PKG_VERSION"),
-        publisher: "Kairo",
+        publisher: "nitinrawat",
         install_location: &install_location,
         uninstall_string: &uninstall_string,
         estimated_size_kb: size_kb,

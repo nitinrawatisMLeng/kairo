@@ -16,7 +16,7 @@ function Invoke-Step([string]$label, [scriptblock]$body) {
     if ($code -ne 0) { throw "$label failed (exit code $code)" }
 }
 
-$repo = "nitinrawatisMLeng/Fectar"
+$repo = "nitinrawatisMLeng/kairo"
 $tag = "v$Version"
 $root = Resolve-Path "$PSScriptRoot/.."
 Set-Location $root

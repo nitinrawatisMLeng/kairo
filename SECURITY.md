@@ -8,7 +8,7 @@ Only the latest release of Kairo gets security fixes. Kairo doesn't update itsel
 
 Please do not open a public issue for a security problem.
 
-Report it privately through GitHub: go to the [Security tab](https://github.com/nitinrawatisMLeng/Fectar/security/advisories/new) and choose **Report a vulnerability**. Only the maintainer can see the report.
+Report it privately through GitHub: go to the [Security tab](https://github.com/nitinrawatisMLeng/kairo/security/advisories/new) and choose **Report a vulnerability**. Only the maintainer can see the report.
 
 Please include:
 

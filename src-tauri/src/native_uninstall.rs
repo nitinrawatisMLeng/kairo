@@ -123,8 +123,11 @@ fn remove_registry(all_users: bool) {
         let root = if all_users { HKEY_LOCAL_MACHINE } else { HKEY_CURRENT_USER };
         let subkey_w = wide(UNINSTALL_SUBKEY);
         let _ = RegDeleteTreeW(root, PCWSTR(subkey_w.as_ptr()));
-        let install_key = wide(&format!(r"Software\Kairo\{}", crate::uninstall_registry::PRODUCT_NAME));
-        let _ = RegDeleteTreeW(root, PCWSTR(install_key.as_ptr()));
+        // NSIS keys this by publisher; installs made before the rename used "Kairo"
+        for publisher in ["nitinrawat", "Kairo"] {
+            let install_key = wide(&format!(r"Software\{}\{}", publisher, crate::uninstall_registry::PRODUCT_NAME));
+            let _ = RegDeleteTreeW(root, PCWSTR(install_key.as_ptr()));
+        }
 
         let run_key = wide(r"Software\Microsoft\Windows\CurrentVersion\Run");
         let approved_key = wide(r"Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run");
