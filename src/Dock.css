@@ -976,8 +976,8 @@ body {
   font-weight: 500;
 }
 
-/* Invert Kairo logo / Settings icon in light mode */
-.light-mode .kairo-icon-img {
+/* Darken the Windows logo and uploaded Start icons in light mode. The Kairo logo is full colour. */
+.light-mode .kairo-icon-img.start-img {
   filter: invert(1) brightness(0.15) contrast(1.2);
 }
 

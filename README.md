@@ -15,9 +15,6 @@
 
 </div>
 
-<br />
-
-> Kairo is a modified fork of [Nectar](https://github.com/kua8/Nectar) by kua8, renamed and changed from Nectar 1.9.1 in November 2026. See [Credits](#credits).
 
 ## Features
 
@@ -148,6 +145,4 @@ npm run tauri dev
 
 Kairo is open source under the [GPLv3](LICENSE), the same license as the projects it comes from.
 
-## Credits
 
-Kairo is a modified fork of [Nectar](https://github.com/kua8/Nectar) by kua8, which began as a fork of [Bloom](https://github.com/SehajveerSingh2005/bloom) by Sehajveer Singh. The original concept and the codebase it grew from are theirs.

@@ -1,11 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" aria-label="Kairo" viewBox="150 150 724 724" width="48" height="48">
-  <g fill="none" stroke="#FFFFFF" stroke-width="92">
-    <path stroke-linecap="round" d="M272.0 250V774"/>
-    <path d="M272.0 586L562.1 290.0"/>
-    <path d="M404.0 451.3L687.1 734.4"/>
-  </g>
-  <g fill="none" stroke="#FFFFFF" stroke-width="50">
-    <circle cx="601.3" cy="250.0" r="56"/>
-    <circle cx="726.7" cy="774.0" r="56"/>
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="Kairo" viewBox="0 0 128 128" width="48" height="48">
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3BE4FF"/>
+      <stop offset="1" stop-color="#1E9BFF"/>
+    </linearGradient>
+    <linearGradient id="right" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5C8CFF"/>
+      <stop offset="1" stop-color="#5A4BFF"/>
+    </linearGradient>
+    <linearGradient id="left" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A07BFF"/>
+      <stop offset="1" stop-color="#7A3BFF"/>
+    </linearGradient>
+    <linearGradient id="bottom" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF6BD0"/>
+      <stop offset="1" stop-color="#E02BC4"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.5"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(45 64 64)">
+    <rect x="20.5" y="20.5" width="40" height="40" rx="11" fill="url(#top)"/>
+    <rect x="67.5" y="20.5" width="40" height="40" rx="11" fill="url(#right)"/>
+    <rect x="20.5" y="67.5" width="40" height="40" rx="11" fill="url(#left)"/>
+    <rect x="67.5" y="67.5" width="40" height="40" rx="11" fill="url(#bottom)"/>
+    <g fill="url(#sheen)">
+      <rect x="20.5" y="20.5" width="40" height="40" rx="11"/>
+      <rect x="67.5" y="20.5" width="40" height="40" rx="11"/>
+      <rect x="20.5" y="67.5" width="40" height="40" rx="11"/>
+      <rect x="67.5" y="67.5" width="40" height="40" rx="11"/>
+    </g>
   </g>
 </svg>

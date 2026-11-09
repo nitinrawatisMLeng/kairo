@@ -925,11 +925,6 @@ input:checked + .slider:before {
   margin-bottom: 14px;
   user-drag: none;
   -webkit-user-drag: none;
-  transition: filter 0.2s ease;
-}
-
-.light-mode .about-logo {
-  filter: invert(1);
 }
 
 .about-title {
